@@ -1,0 +1,177 @@
+@font-face {
+	font-family: 'Antonio Regular';
+	src: url('Antonio-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Antonio Bold';
+	src: url('Antonio-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'AbhayaLibre Regular';
+	src: url('AbhayaLibre-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'AbhayaLibre Regular';
+	src: url('AbhayaLibre-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Oswald Regular';
+	src: url('Oswald-Regular.ttf') format('truetype');
+}
+html,
+body,td,th {
+	color: #000000;
+	background-color: #fcfbe3;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#container {
+	position: absolute;
+	left: 44%;
+	top: 45%;
+}
+#page-container {
+   min-height:100%;
+   position:relative;
+}
+#logo {
+	position: static;
+	width: 121px;
+	height: 136px;
+	z-index: 1;
+}
+#text {
+	position: relative;
+	left: 45px;
+	z-index: 1;
+	color: #0d0efc;
+}
+header {
+	position: relative;
+	padding-top:10px;
+	width: 90%;
+	left: 5%;
+}
+#circle-logo {
+	position: static;
+	left: 3px;
+	top: 3px;
+	width: 120px;
+	height: 110px;
+	z-index: 1;
+}
+nav {
+	position: relative;
+	left: -5%;
+	z-index: 1;
+	top: 60px;
+	float: none;
+}
+#header-bar {
+	position: relative;
+	left: -5px;
+	top: 1%;
+	width: 100%;
+	height: 5px;
+	z-index: 1;
+	background-color: #ef8826;
+}
+#content {
+	position: static;
+	padding:10px;
+	padding-bottom:60px;
+	padding-right:5%;
+	padding-left:5%;
+	min-height:100%
+	left:5%;
+	right:5%;
+}
+	#My-Story {
+	position: absolute;
+	padding-left:10px;
+	padding-top:30px;
+	width: 200px;
+	height: 60px;
+	z-index: 1;
+}
+    
+#portrait {
+	position: relative;
+	left: 0px;
+	top: 35px;
+	width: 198px;
+	height: 211px;
+	z-index: 1;
+}
+#paragraph-about {
+	font-family: "Oswald Regular";
+	font-size: 14px;
+	position: relative;
+	left: 250px;
+	top: -180px;
+	width: 60%;
+	padding-left:10px;
+	padding-right:10px;
+	z-index: auto;
+}
+	#under-construction {
+	position: relative;
+	padding-top:5%;
+	padding-bottom:5%;
+	min-width: 100%;
+	height: auto;
+	z-index: 1;
+}
+    
+
+#footer {
+	position: absolute;
+	bottom:1%;
+	width: 90%;
+	left: 5%;
+	height: 60px;
+
+}
+#footer-bar {
+	position: relative;
+	left: -5px;
+	bottom: 0%;
+	width: 100%;
+	height: 5px;
+	z-index: 3;
+	background-color: #ef8826;
+}
+#instagram {
+	position: relative;
+	left: 45px;
+	top: 5px;
+	bottom: 10px;
+	width: 45px;
+	height: 45px;
+	z-index: 1;
+}
+	#vsco {
+	position: relative;
+	width: 45px;
+	height: 45px;
+	z-index: 1;
+	left: 100px;
+	top: -40px;
+}
+    
+#rights-text {
+	position: relative;
+	left: 180px;
+	top: -60px;
+	width: 228px;
+	height: 18px;
+	z-index: 5;
+	font-family: "AbhayaLibre Regular";
+	font-size: 14px;
+	color: #000000;
+}
+h2 {
+	font-family: "Oswald Regular";
+	font-size: 24pt;
+}
